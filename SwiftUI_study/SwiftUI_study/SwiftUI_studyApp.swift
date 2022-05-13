@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_studyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //Word()
+            s_Image()
         }
     }
 }
