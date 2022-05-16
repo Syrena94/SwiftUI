@@ -13,6 +13,9 @@
 		18116CDA282E0B8200A7A51E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18116CD9282E0B8200A7A51E /* Preview Assets.xcassets */; };
 		18116CE1282E0C0B00A7A51E /* s_Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18116CE0282E0C0B00A7A51E /* s_Word.swift */; };
 		18116CE3282E374B00A7A51E /* s_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18116CE2282E374B00A7A51E /* s_Image.swift */; };
+		188BD8C8282E499F007C4501 /* s_VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BD8C7282E499F007C4501 /* s_VStack.swift */; };
+		188BD8CA282E4D58007C4501 /* s_HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BD8C9282E4D58007C4501 /* s_HStack.swift */; };
+		188BD8CC282E56F9007C4501 /* s_ZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BD8CB282E56F9007C4501 /* s_ZStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		18116CD9282E0B8200A7A51E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18116CE0282E0C0B00A7A51E /* s_Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s_Word.swift; sourceTree = "<group>"; };
 		18116CE2282E374B00A7A51E /* s_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s_Image.swift; sourceTree = "<group>"; };
+		188BD8C7282E499F007C4501 /* s_VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s_VStack.swift; sourceTree = "<group>"; };
+		188BD8C9282E4D58007C4501 /* s_HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s_HStack.swift; sourceTree = "<group>"; };
+		188BD8CB282E56F9007C4501 /* s_ZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s_ZStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				18116CD4282E0B8100A7A51E /* ContentView.swift */,
 				18116CE0282E0C0B00A7A51E /* s_Word.swift */,
 				18116CE2282E374B00A7A51E /* s_Image.swift */,
+				188BD8C7282E499F007C4501 /* s_VStack.swift */,
+				188BD8C9282E4D58007C4501 /* s_HStack.swift */,
+				188BD8CB282E56F9007C4501 /* s_ZStack.swift */,
 				18116CD6282E0B8200A7A51E /* Assets.xcassets */,
 				18116CD8282E0B8200A7A51E /* Preview Content */,
 			);
@@ -145,7 +154,10 @@
 			files = (
 				18116CD5282E0B8100A7A51E /* ContentView.swift in Sources */,
 				18116CE3282E374B00A7A51E /* s_Image.swift in Sources */,
+				188BD8CC282E56F9007C4501 /* s_ZStack.swift in Sources */,
 				18116CD3282E0B8100A7A51E /* SwiftUI_studyApp.swift in Sources */,
+				188BD8CA282E4D58007C4501 /* s_HStack.swift in Sources */,
+				188BD8C8282E499F007C4501 /* s_VStack.swift in Sources */,
 				18116CE1282E0C0B00A7A51E /* s_Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
