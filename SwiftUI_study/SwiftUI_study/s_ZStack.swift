@@ -14,7 +14,7 @@ struct s_ZStack: View {
             HStack {
                 BasicView()
                 ZStack {
-                    PricingView(title: "Basic", price: "$9", textColor: .black, bgColor: Color(red: 240/255, green: 240/255, blue: 240/255))
+                    PricingView(title: "Pro", price: "$9", textColor: .black, bgColor: Color(red: 240/255, green: 240/255, blue: 240/255))
                      Text("Best for designer")
                             .font(.system(.caption, design: .rounded))
                             .fontWeight(.bold)
@@ -32,5 +32,6 @@ struct s_ZStack: View {
 struct s_ZStack_Previews: PreviewProvider {
     static var previews: some View {
         s_ZStack()
+            .previewDevice("iPhone 13")
     }
 }
